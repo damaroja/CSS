@@ -1,0 +1,141 @@
+
+/* PseudoClases */
+/* PseudoClases general */
+
+/* Pseudoclases de a:link, a:visited, a:hover, a:active, input:focus */
+
+a:link{
+    color: red;   /* Elegimos todos los a que esten en estado link */
+}
+
+a:visited{
+    color: red;   /* Elegimos todos los a que esten en estado visited */
+}
+
+a:hover{
+    color: red;   /* Elegimos todos los a que esten en estado hover */
+}
+
+a:active{
+    color: red;   /* Elegimos todos los a que esten en estado active */
+}
+
+a:hover{
+    color: red;   /* Elegimos todos los a que esten en estado hover */
+}
+
+/* Pseudoclase de input */
+
+input:focus{
+    color: red;   /* Elegimos todos los input que esten en estado focus */
+}
+
+
+
+/* Pseudoclase de p */
+
+p:first-child{
+    color: red;   /* Elegimos todos los p que sean el primer hijo de su padre */
+}
+
+p:last-child{
+    color: red;   /* Elegimos todos los p que sean el ultimo hijo de su padre */
+}
+
+p:nth-child(2){
+    color: red;   /* Elegimos todos los p que sean el segundo hijo de su padre */
+}   
+
+p:nth-child(2n){
+    color: red;   /* Elegimos todos los p cuya posicion sea multiplo de 2 */
+}   
+
+p:nth-child(2n+1){
+    color: red;   /* Elegimos todos los p que sean el segundo hijo de su padre */
+}   
+
+p:nth-child(odd){
+    color: red;   /* Elegimos todos los p que sean el segundo hijo de su padre */
+}
+
+p:nth-child(even){
+    color: red;   /* Elegimos todos los p que sean el segundo hijo de su padre */
+}   
+
+p:nth-child(2n+3){
+    color: red;   /* Elegimos todos los p que sean el segundo hijo de su padre */
+}
+
+p:nth-child(4n){
+    color: red;   /* Elegimos todos los p cuya posicion sea multiplo de 4 */
+}           
+
+p:nth-last-child(2){    
+    color: red;   /* Elegimos todos los p que sean el segundo hijo de su padre empezando por el final */
+}
+
+p:not(.miClase){
+    color: red;   /* Elegimos todos los p que no tengan la clase .miClase */
+} 
+
+/* Pseudoelementos */
+
+span::first-letter{
+    color: red;   /* Elegimos todos los span que sean la primera letra de su padre */
+}
+
+span::first-line{
+    color: red;   /* Elegimos todos los span que sean la primera linea de su padre */
+}   
+
+span::before{
+    color: red;   /* Elegimos todos los span que esten antes de su padre */
+}       
+
+span::after{
+    color: red;   /* Elegimos todos los span que esten despues de su padre */
+}   
+
+ul li::marker{
+    color: red;   /* Se usa para dar estilos a los indices de las listas */
+}
+
+imput::placeholder{
+    color: red;   /* Se usa para dar estilos al placeholder de los inputs */
+}
+
+
+/* Selectores de atributos */
+
+input[type="text"]{
+    color: red;   /* Elegimos todos los input que sean de tipo text */
+}
+input[type="password"]{
+    color: red;   /* Elegimos todos los input que sean de tipo password */
+}
+input[type="number"]{
+    color: red;   /* Elegimos todos los input que sean de tipo number */
+}
+input[type="text"][name="nombre"]{
+    color: red;   /* Elegimos todos los input que sean de tipo text y que tengan el atributo name="nombre" */
+}
+
+a[href="www.google.com"]{
+    color: #ccc    /* Elegimos todos los a que tengan el atributo href="www.google.com" */
+    
+}
+
+a[href^="www"]{
+    color: #ccc    /* Elegimos todos los a que tengan el atributo href que empieze por www */
+    
+}   
+
+a[href$="pdf"]{
+    color: #ccc    /* Elegimos todos los a que tengan el atributo href que termine por com */
+    
+} 
+
+a[href*="google"]{
+    color: #ccc    /* Elegimos todos los a que tengan el atributo href que contenga google */
+    
+}   
