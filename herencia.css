@@ -1,0 +1,14 @@
+/* Herencia de estilos */
+/* *********************************************************************************** */
+
+/* Propiedad initial*/
+p {
+    color: red;   /* Elegimos todos los p */
+    color: initial; /* Elegimos todos los p y les quitamos el color */
+}
+
+/* Propiedad inherit*/
+p {
+    color: red;   /* Elegimos todos los p */
+    color: inherit; /* Elegimos todos los p y les quitamos el color */
+}   
