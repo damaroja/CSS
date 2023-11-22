@@ -1,0 +1,114 @@
+
+
+
+
+
+
+/* Selectores de CSS */
+/* *********************************************************************************************** */
+
+/* Selector general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selectores de etiqueta */
+h1 {
+    color: red;
+}   
+
+/* Selectores de clase */
+.titulo {
+    color: blue;
+}
+
+/* Selectores de id */
+#titulo {
+    color: green;
+}   
+
+/* Selectores de clase unidos */
+.titulo.grande {
+    font-size: 50px;
+}
+
+/* Selectores de id unidos */   
+#titulo.grande {
+    font-size: 50px;
+}       
+
+/* Selectores de etiqueta unidos*/
+
+h1.grande {
+    font-size: 50px;
+}
+
+
+/* Selectores agrupados de elementos */
+p, a, h1 {
+    color: red;
+}
+
+/* Selectores agrupados de clases, elementos, ids */
+p, .miClase. .miOtraClase, #miId, #MiOtroId, h1 {
+    color: red;
+}
+
+/* Selectores descendientes */
+
+div p {
+    color: red;   /* Elegimos todos los p descendientes de div */
+}
+
+#miId p {
+    color: red;   /* Elegimos todos los p descendientes de #miId */
+}   
+
+.miClase p {
+    color: red;   /* Elegimos todos los p descendientes de .miClase */
+                        /* Da igual la profundidad de donde se encuentren los descendientes */ 
+} 
+
+div > p {
+    color: red;   /* Elegimos todos los p hijos directos de div */
+}   
+
+#miId > p {
+    color: red;   /* Elegimos todos los p hijos directos de #miId */
+}   
+
+.miClase > p {
+    color: red;   /* Elegimos todos los p hijos directos de .miClase */
+}                    /* Solo afecta al primer nivel de profundidad */
+
+/* Selectores Hermanos */
+/* Selectores Hermanos general */
+div ~ p {
+    color: red;   /* Elegimos todos los p hermanos de div */
+}
+
+/* Selectores Hermanos de id */
+#miId ~ p {
+    color: red;   /* Elegimos todos los p hermanos de #miId */
+}
+
+/* Selectores Hermanos de clase */
+.miClase ~ p {
+    color: red;   /* Elegimos todos los p hermanos de .miClase */
+}   
+
+/* Selectores Hermanos adyacentes */
+div + p {
+    color: red;   /* Elegimos todos los p hermanos adyacentes de div */
+}
+
+#miId + p {
+    color: red;   /* Elegimos todos los p hermanos adyacentes de #miId */
+}
+
+.miClase + p {
+    color: red;   /* Elegimos todos los p hermanos adyacentes de .miClase */
+}
