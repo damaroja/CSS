@@ -59,4 +59,8 @@ div {
     grid-template-columns: repeat(3, minmax(100px, 200px) 300px 400px 500px 600px);   /* 3 columnas de 100px o 200px, 300px, 400px, 500px y 600px, el que sea mayor */
     grid-template-columns: repeat(3, minmax(100px, 200px) 300px 400px 500px 600px 700px);   /* 3 columnas de 100px o 200px, 300px, 400px, 500px, 600px y 700px, el que sea mayor */
     grid-template-columns: repeat(3, minmax(100px, 200px) 300px 400px 500px 600px 700px 800px);   /* 3 columnas de 100px o 200px, 300px, 400px, 500px, 600px, 700px y 800px, el que sea mayor */
-    grid-template-columns: repeat(3, minmax(100px, 200px) 300px 400px 500px 600px   
+    grid-template-columns: repeat(3, minmax(100px, 200px) 300px 400px 500px 600px)} 
+
+h1::after{
+    content: attr(data-name)    /* SE usa para llamar a un atributo */
+}
