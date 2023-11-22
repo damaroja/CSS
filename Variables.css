@@ -1,0 +1,13 @@
+
+:root {
+    --color-primario: red;
+    --color-secundario: blue;
+}
+
+p {
+    color: var(--color-primario);
+}   
+
+a {
+    color: var(--color-secundario);
+}   
