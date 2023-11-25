@@ -1,0 +1,70 @@
+/* Colores en CSS */
+
+/* Color en HEX */ 
+color: #ff0000;
+
+/* Color en RGB */
+color: rgb(255, 0, 0);
+
+/* Color en RGBA */
+color: rgba(255, 0, 0, 0.5);
+
+/* Color en HSL */
+color: hsl(0, 100%, 50%);
+
+/* Color en HSLA */
+color: hsla(0, 100%, 50%, 0.5);
+
+/* Color en nombre */
+color: red;
+
+/* Color en nombre hexadecimal */
+color: #f00;
+
+/* Color en nombre hexadecimal corto */
+color: #f0;
+
+
+
+
+
+
+/* Degradados lineales*/   
+background: linear-gradient(to right, #ff0000, #0000ff);
+
+/* Degradados en 3D */
+background: linear-gradient(to right, #ff0000, #0000ff, #00ff00);
+
+/* Degradados en 3D con porcentajes */
+background: linear-gradient(to right, #ff0000 0%, #0000ff 50%, #00ff00 100%);
+
+/* Degradados en 3D con porcentajes y colores */
+background: linear-gradient(to right, red 0%, blue 50%, green 100%);
+
+/* Degradados radiales */
+background: radial-gradient(circle, #ff0000, #0000ff);
+
+/* Degradados radiales con forma */
+background: radial-gradient(circle at 50% 50%, #ff0000, #0000ff);
+
+/* Degradados radiales con forma y tamaño */
+background: radial-gradient(ellipse at 50% 50%, #ff0000, #0000ff);
+
+/* Degradados radiales con forma, tamaño y radio */
+background: radial-gradient(ellipse at 50% 50%, #ff0000 0%, #0000ff 50%, #00ff00 100%);
+
+/* Degradados radiales con forma, tamaño, radio y colores */
+background: radial-gradient(ellipse at 50% 50%, red 0%, blue 50%, green 100%);
+
+
+/* Transparencias en Css */ 
+background: rgba(255, 0, 0, 0.5);
+
+background-color: rgba(255, 0, 0, 0.5);
+
+color: rgba(255, 0, 0, 0.5);
+
+
+/* Background */
+background: url("https://www.w3schools.com/cssref/img_tree.gif") no-repeat cover center;
+background: url("https://www.w3schools.com/cssref/img_tree.gif") no-repeat fixed center;
