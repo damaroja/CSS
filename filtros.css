@@ -1,0 +1,33 @@
+
+/* Filtros en CSS */
+
+img {
+    width: 80%;
+    filter: sepia(90%);
+    filter: blur(5px);
+    filter: grayscale(60%);
+    filter: saturate(60%);
+    filter: opacity(10%) ;
+    filter: brightness(200%);
+    filter: contrast(90%);
+    filter: hue-rotate(45deg);
+    filter: invert(70%);
+    filter: drop-shadow(10px 10px 5px #0f0f0f);
+
+
+}
+
+/*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div><img src="https://picsum.photos/id/45/4592/2576" alt="" srcset=""></div>
+</body>
+</html>*/
