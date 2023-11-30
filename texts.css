@@ -114,5 +114,26 @@ p::first-line {
     color: red;
 }
 
+/* Hyphens */        
+
+div {
+    overflow-wrap: normal;
+    overflow-wrap: break-word;
+    overflow-wrap: anywhere;
+}
+
+div {
+    word-break: normal;
+    word-break: break-all;
+    word-break: break-word;
+    word-break: keep-all;   
+}
+
+div {
+    hyphens: none;
+    hyphens: manual;
+    hyphens: auto;
+}
+
 
 
