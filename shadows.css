@@ -19,6 +19,21 @@ h1 {
     text-shadow: 5px 5px 10px #ccc;
 }
 
+/* Diferencia entre drop-shadow y box-shadow */
+
+/* drop-shadow aplica la sombra al objeto de la imagen
+    mientras que box-shadow aplica la sombra al contenedor  
+    de la imagen 
+*/
+
+.img1 {
+    box-shadow: (8px 8px 10px red);
+}
+
+.img2 {
+    filter: drop-shadow(8px 8px 10px red);
+}
+
 
 <!DOCTYPE html>
 <html lang="en">
