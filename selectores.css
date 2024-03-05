@@ -7,6 +7,18 @@
 /* Selectores de CSS */
 /* *********************************************************************************************** */
 
+/*
+Selector general : *
+Selector etiqueta : p, h1, etc...
+Selector clase: : .
+Selector id: #
+Selector agrupacion: p, a, h1 ...
+Descendientes: h1 p
+Descendientes directos h1 > p
+Hermanos: h1 ~ p
+Hermanos directos: h1 + p
+*/
+
 /* Selector general */
 
 * {
