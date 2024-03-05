@@ -20,9 +20,6 @@ a:active{
     color: red;   /* Elegimos todos los a que esten en estado active */
 }
 
-a:hover{
-    color: red;   /* Elegimos todos los a que esten en estado hover */
-}
 
 /* Pseudoclase de input */
 
