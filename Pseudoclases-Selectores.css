@@ -48,19 +48,19 @@ p:nth-child(2n){
 }   
 
 p:nth-child(2n+1){
-    color: red;   /* Elegimos todos los p que sean el segundo hijo de su padre */
+    color: red;   /* Elegimos todos los p que sean multiplo de 3 */
 }   
 
 p:nth-child(odd){
-    color: red;   /* Elegimos todos los p que sean el segundo hijo de su padre */
+    color: red;   /* Elegimos todos los p cuya posicion sea multiplo de 3 */
 }
 
 p:nth-child(even){
-    color: red;   /* Elegimos todos los p que sean el segundo hijo de su padre */
+    color: red;   /* Elegimos todos los p que sean multiplo de 2 */
 }   
 
 p:nth-child(2n+3){
-    color: red;   /* Elegimos todos los p que sean el segundo hijo de su padre */
+    color: red;   /* Elegimos todos los p que tenga posicion en secuencia 3,5,7,9 */
 }
 
 p:nth-child(4n){
@@ -74,6 +74,8 @@ p:nth-last-child(2){
 p:not(.miClase){
     color: red;   /* Elegimos todos los p que no tengan la clase .miClase */
 } 
+
+
 
 /* Pseudoelementos */
 
