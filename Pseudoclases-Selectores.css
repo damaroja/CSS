@@ -88,11 +88,11 @@ span::first-line{
 }   
 
 span::before{
-    color: red;   /* Elegimos todos los span que esten antes de su padre */
+    constent: 'Hola before';   /* Creamos acciones antes del span */
 }       
 
 span::after{
-    color: red;   /* Elegimos todos los span que esten despues de su padre */
+    content: 'Hola after';   /* Creamos acciones despues de span */
 }   
 
 ul li::marker{
